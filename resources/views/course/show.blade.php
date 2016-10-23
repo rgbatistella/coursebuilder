@@ -45,6 +45,7 @@
                                         <div class="col-md-offset-8 text-center">
                                             <i class="fa fa-arrows text-info"></i>
                                             <a href="{{route('chapter.destroy', [$chapter->id])}}" onclick="return confirm('Are you sure you want to delete?')"><i class="fa fa-eraser text-info"></i></a>
+                                            <a href="{{route('chapter.edit', [$chapter->id])}}"><i class="fa fa-edit text-info"></i></a>
                                         </div>
                                         {{$chapter->title}}
                                     </div>
